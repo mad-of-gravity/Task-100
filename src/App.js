@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
       <div
-        className="wrapper"
         style={{
           display: "flex",
           justifyContent: "space-between",
@@ -14,7 +13,6 @@ function App() {
         }}
       >
         <h3
-          className="mealHeading"
           style={{
             margin: "0 0 0 0.25rem 0",
           }}
@@ -22,7 +20,6 @@ function App() {
           Sushi
         </h3>
         <div
-          className="description"
           style={{
             fontStyle: "italic",
           }}
@@ -30,7 +27,6 @@ function App() {
           I prefer steak than sushi.
         </div>
         <div
-          className="price"
           style={{
             marginTop: "0.25rem",
             fontWeight: "bold",
